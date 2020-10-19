@@ -81,14 +81,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         /**Praktikum 1 start here**/
-        /*LatLng place = new LatLng(-7.870978, 112.526967);
+        LatLng place = new LatLng(-7.870978, 112.526967);
         float zoomLevel = 17.0f;
 
         mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
         mMap.addMarker(new MarkerOptions().position(place)
                 .title("Alun-Alun Kota Batu")
                 .icon( BitmapDescriptorFactory.fromResource(R.drawable.marker)));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(place, zoomLevel));*/
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(place, zoomLevel));
         /**End of Praktikum 1**/
 
         /**Praktikum 2 start here**/
